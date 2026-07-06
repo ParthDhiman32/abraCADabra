@@ -1,0 +1,38 @@
+import asyncio
+import pyautogui
+from winsdk.windows.media.control import GlobalSystemMediaTransportControlsSessionManager as MediaManager
+
+class MediaController:
+    @staticmethod
+    def play_pause():
+        pyautogui.press('playpause')
+
+    @staticmethod
+    def next_track():
+        pyautogui.press('nexttrack')
+
+    @staticmethod
+    def prev_track():
+        pyautogui.press('prevtrack')
+
+    @staticmethod
+    def vol_up():
+        pyautogui.press('volumeup', presses=3)
+
+    @staticmethod
+    def vol_down():
+        pyautogui.press('volumedown', presses=3)
+
+    @staticmethod
+    async def get_current_media_info():
+        try:
+            sessions = await MediaManager.request_async()
+            current_session = sessions.get_current_session()
+            if current_session:
+                info = await current_session.try_get_media_properties_async()
+                title = info.title if info.title else "505"
+                artist = info.artist if info.artist else "Arctic Monkeys"
+                return f"{title}|{artist}"
+            return "No Media Playing|Start Spotify"
+        except Exception:
+            return "Error|Media Unreachable"
