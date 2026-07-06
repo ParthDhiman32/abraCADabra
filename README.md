@@ -22,5 +22,5 @@
 9) Connect your laptop with the Xiao Esp32c3 and flash the code.
 10) Make sure to check the COM port name twice and change it on python program.
 
-Warning: Don't open the serial monitor on the Arduino IDE when trying to run the Python program because it would show a error then.
+(Note: Don't open the serial monitor on the Arduino IDE when trying to run the Python program because it would show a error then.)
 
