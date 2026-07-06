@@ -15,7 +15,8 @@
 
 6) After Downloading you are done with the Setup for python part now time for the Xiao code.
 7) Click on Libraries icon and Download all these libraries.
-   <img width="180" height="123" alt="image" src="https://github.com/user-attachments/assets/073d3a92-eb57-4319-811f-b58dadf3a8be" />
+
+<img width="180" height="123" alt="image" src="https://github.com/user-attachments/assets/073d3a92-eb57-4319-811f-b58dadf3a8be" />
 
 8) Connect all the pins as shown in the Schematic.
 9) Connect your laptop with the Xiao Esp32c3 and flash the code.
