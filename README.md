@@ -1,6 +1,7 @@
 # AbraCADabra
 
 # Zine
+<img width="3122" height="4444" alt="ZINE (1)" src="https://github.com/user-attachments/assets/84563ead-9e7f-4dfe-abfb-dc9b50a4cfb0" />
 
 # Description
 
@@ -18,7 +19,9 @@ We made this so that when you wanna change music or switch tabs you dont have to
 <img width="927" height="563" alt="image" src="https://github.com/user-attachments/assets/afe01d21-67f9-4e45-9adf-b3f85607289a" />
 
 # CAD/3D Models
-
+<img width="1135" height="665" alt="image" src="https://github.com/user-attachments/assets/55aee9ff-bdfd-4b94-953f-5b4d95ae1b82" />
+<img width="869" height="839" alt="image" src="https://github.com/user-attachments/assets/e9053366-3919-4815-bfa2-7b8344d3b27c" />
+<img width="1189" height="806" alt="image" src="https://github.com/user-attachments/assets/550567fe-5d74-451c-b632-f0a64adda360" />
 
 # Steps to set the code up
 
