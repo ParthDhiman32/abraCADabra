@@ -14,6 +14,11 @@ As we know that the world is coming to a end and your keyboard would be destroye
 
 We made this so that when you wanna change music or switch tabs you dont have to do it manually you can just glide your hand above the sensor and then the work is done and the thing is it is really easy to change the shortcuts you want manually in the python code.
 
+# Schematic 
+<img width="927" height="563" alt="image" src="https://github.com/user-attachments/assets/afe01d21-67f9-4e45-9adf-b3f85607289a" />
+
+# CAD/3D Models
+
 
 # Steps to set the code up
 
